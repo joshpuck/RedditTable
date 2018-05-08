@@ -1,10 +1,9 @@
 
 
-
+//setup and request json
 var xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://www.reddit.com/r/politics.json?limit=1000');
 xhr.responseType = 'json';
-
 xhr.send();
 
 // onload is "new" and is just readyState === 4
