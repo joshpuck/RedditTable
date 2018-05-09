@@ -2,14 +2,22 @@
 <html>
 <head>
   <title>No title</title>
-  <script src='https://code.jquery.com/jquery-1.12.4.js'></script>
-  <script src='https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'></script>
+  <link rel="stylesheet" href="node_modules/datatables.net-dt/css/jquery.dataTables.css"> 
+  <script src='node_modules/jquery/dist/jquery.js'></script>
+  <script src='node_modules/datatables.net/js/jquery.dataTables.js'></script>
   
   <script src='js/reddit.js'></script>
 </head>
 <body>
-  <div id='rising'>
-
-  </div>
+  <table id='example'>
+    <thead>
+        <tr>
+            <th>score/age</th>
+            <th>score</th>
+            <th>age</th>
+            <th>headline</th>
+        </tr>
+    </thead>
+  </table>
 </body>
 </html>
